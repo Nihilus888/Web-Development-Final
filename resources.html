@@ -6,15 +6,25 @@
     <title>History of the Internet in Singapore</title>
 </head>
 <body style="margin: 0; height: 100%; font-family: Arial, sans-serif; background-color: #f4f4f4; display: flex; flex-direction: column; min-height: 100vh;">
+    <!-- Header -->
     <header style="display: flex; justify-content: space-between; align-items: center; background-color: #ff4f5a; color: white; padding: 25px 50px; border-bottom: 4px solid #c92f33;">
-        <h1 style="font-size: 24px; font-weight: bold; margin: 0;">History of the Internet in Singapore</h1>
+    
+        <!-- Container for Flag and Title -->
+        <div style="display: flex; align-items: center; gap: 15px;">
+            <img src="public/Flag_of_Singapore.png" style="width: 50px; height: auto;">
+            <h1 style="font-size: 24px; font-weight: bold; margin: 0;">History of the Internet in Singapore</h1>
+        </div>
+    
+        <button onclick="toggleMenu()" id="menu-btn" style="background: none; border: none; color: white; font-size: 18px; cursor: pointer; display: none; margin-right: 10px">☰</button>
+    
         <nav>
-            <ul style="list-style-type: none; margin: 0; padding: 0; display: flex;">
-                <li style="margin-left: 30px;"><a href="home.html" style="color: white; text-decoration: underline; font-size: 18px; font-weight: 500; transition: color 0.3s;">Home</a></li>
-                <li style="margin-left: 30px;"><a href="history.html" style="color: white; text-decoration: underline; font-size: 18px; font-weight: 500; transition: color 0.3s;">History</a></li>
-                <li style="margin-left: 30px;"><a href="images.html" style="color: white; text-decoration: underline; font-size: 18px; font-weight: 500; transition: color 0.3s;">Images</a></li>
+            <ul id="nav-links" style="list-style-type: none; margin: 0; padding: 0; display: flex; gap: 20px;">
+                <li><a href="history.html" style="color: white; text-decoration: underline; font-size: 18px; font-weight: 500; padding: 8px;">History</a></li>
+                <li><a href="images.html" style="color: white; text-decoration: underline; font-size: 18px; font-weight: 500; padding: 8px;">Images</a></li>
+                <li><a href="resources.html" style="color: white; text-decoration: underline; font-size: 18px; font-weight: 500; padding: 8px;">Resources</a></li>
             </ul>
         </nav>
+    
     </header>
 
     <div style="margin-top: 40px; font-size: 30px; text-decoration: underline; text-align: center; font-weight: bold; text-decoration: underline;">
@@ -24,7 +34,7 @@
     <ol style="margin-top: 40px; font-size: 15px; text-decoration: underline; text-align: center; text-decoration: underline;">
         <a href="https://www.tech.gov.sg/media/technews/history-of-the-internet/">GovTech History of the internet of Singapore</a>
     </ol>
-    
+
     <ol style="margin-top: 40px; font-size: 15px; text-decoration: underline; text-align: center; text-decoration: underline;">
         <a href="https://graphics.straitstimes.com/STI/STIMEDIA/Interactives/2015/10/35-years-of-ict/supercharging-singapore/the-1990s.html#:~:text=Singapore's%20first%20Internet%20access%20service,articles%20known%20as%20UseNet%20News.">
             Straits Times History of the Internet in Singapore
