@@ -6,70 +6,155 @@
     <title>History of the Internet in Singapore</title>
 </head>
 <body style="margin: 0; font-family: Arial, sans-serif; background-color: #f4f4f4; display: flex; flex-direction: column; min-height: 100vh;">
-    
+
     <!-- Header -->
-    <header style="display: flex; justify-content: space-between; align-items: center; background-color: #ff4f5a; color: white; padding: 25px 50px; border-bottom: 4px solid #c92f33;">
-    
-        <!-- Container for Flag and Title -->
-        <div style="display: flex; align-items: center; gap: 15px;">
-            <img src="public/Flag_of_Singapore.png" style="width: 50px; height: auto;">
-            <h1 style="font-size: 24px; font-weight: bold; margin: 0;">History of the Internet in Singapore</h1>
+    <header style="display: flex; justify-content: space-between; align-items: center; background-color: #ff4f5a; color: white; padding: 20px; border-bottom: 4px solid #c92f33;">
+        
+        <div style="display: flex; align-items: center; gap: 10px;">
+            <img src="public/Flag_of_Singapore.png" style="width: 40px; height: auto;">
+            <h1 style="font-size: 20px; font-weight: bold; margin: 0;">History of the Internet in Singapore</h1>
         </div>
-    
-        <button onclick="toggleMenu()" id="menu-btn" style="background: none; border: none; color: white; font-size: 18px; cursor: pointer; display: none; margin-right: 10px">☰</button>
-    
+
+        <!-- Mobile Menu Button -->
+        <button onclick="toggleMenu()" id="menu-btn" style="background: none; border: none; color: white; font-size: 20px; cursor: pointer; display: none;">☰</button>
+
         <nav>
-            <ul id="nav-links" style="list-style-type: none; margin: 0; padding: 0; display: flex; gap: 20px;">
-                <li><a href="history.html" style="color: white; text-decoration: underline; font-size: 18px; font-weight: 500; padding: 8px;">History</a></li>
-                <li><a href="images.html" style="color: white; text-decoration: underline; font-size: 18px; font-weight: 500; padding: 8px;">Images</a></li>
-                <li><a href="resources.html" style="color: white; text-decoration: underline; font-size: 18px; font-weight: 500; padding: 8px;">Resources</a></li>
+            <ul id="nav-links" style="list-style-type: none; margin: 0; padding: 0; display: flex; gap: 15px;">
+                <li><a href="history.html" style="color: white; text-decoration: underline; font-size: 16px; font-weight: 500;">History</a></li>
+                <li><a href="images.html" style="color: white; text-decoration: underline; font-size: 16px; font-weight: 500;">Images</a></li>
+                <li><a href="resources.html" style="color: white; text-decoration: underline; font-size: 16px; font-weight: 500;">Resources</a></li>
             </ul>
         </nav>
-    
+
     </header>
 
     <!-- Timeline Section -->
-    <div style="text-align: center; margin: 40px 0; font-size: 24px; font-weight: bold; text-decoration: underline;">Timeline History</div>
+    <div style="text-align: center; margin: 30px 0; font-size: 22px; font-weight: bold; text-decoration: underline;">Timeline History</div>
 
-    <div style="max-width: 600px; margin: auto;">
+    <div style="max-width: 90%; margin: auto;">
         <!-- Timeline Item 1 -->
-        <div class="timeline-item" style="background: white; border-left: 5px solid #ff4f5a; margin-bottom: 20px; padding: 15px; position: relative; cursor: pointer;" onclick="toggleDetails(this)">
-            <div style="font-size: 18px; font-weight: bold;">1990 - Singapore’s First Internet Connection</div>
+        <div class="timeline-item" style="background: white; border-left: 5px solid #ff4f5a; margin-bottom: 20px; padding: 15px; cursor: pointer;" onclick="toggleDetails(this)">
+            <div style="font-size: 18px; font-weight: bold;">1987 - Connection to Bitnet</div>
             <div class="details" style="display: none; font-size: 16px; margin-top: 10px; color: #333;">
-                Singapore connects to the global internet for the first time, enabling research and development.
+                Bitnet was used to connect to over 600 computers in academic institution such as the one in America and Europe. In 1987, Singapore first university, the National University of Singapore
+                linked up to Bitnet. NUS played a pivotal role in bringing the country's first connection to the internet in 1990. In 1991, NUS began operating Technet which connected academic institutions
+                and other research facilities. However during this period, most of the general public in Singapore did not have access to the internet but things were slowly picking up in pace.
             </div>
         </div>
 
         <!-- Timeline Item 2 -->
-        <div class="timeline-item" style="background: white; border-left: 5px solid #ff4f5a; margin-bottom: 20px; padding: 15px; position: relative; cursor: pointer;" onclick="toggleDetails(this)">
-            <div style="font-size: 18px; font-weight: bold;">1994 - First Public Internet Service</div>
+        <div class="timeline-item" style="background: white; border-left: 5px solid #ff4f5a; margin-bottom: 20px; padding: 15px; cursor: pointer;" onclick="toggleDetails(this)">
+            <div style="font-size: 18px; font-weight: bold;">1994 - Internet for the masses</div>
             <div class="details" style="display: none; font-size: 16px; margin-top: 10px; color: #333;">
-                SingNet launches the first public internet access service, making the internet widely available.
+                When Singtel launched SingNet was when the internet became available to the masses as they not only offered public access to the internet but also an email service. Two other internet
+                service providers also entered into the picture which helped increased competition and help lower cost, this benefitted the consumers immensely.
             </div>
         </div>
 
         <!-- Timeline Item 3 -->
-        <div class="timeline-item" style="background: white; border-left: 5px solid #ff4f5a; margin-bottom: 20px; padding: 15px; position: relative; cursor: pointer;" onclick="toggleDetails(this)">
+        <div class="timeline-item" style="background: white; border-left: 5px solid #ff4f5a; margin-bottom: 20px; padding: 15px; cursor: pointer;" onclick="toggleDetails(this)">
             <div style="font-size: 18px; font-weight: bold;">1998 - Broadband Revolution</div>
             <div class="details" style="display: none; font-size: 16px; margin-top: 10px; color: #333;">
-                Singapore launches broadband services, dramatically improving internet speeds and accessibility.
+                The Singapore One national broadband network was launched and it was slowly rolled out ot households after a year long pilot programme. As compared to the older dial-up connection, the surfing
+                speed was over 100 times faster when cable or ADSL (Asymmetric Digital Subscriber Line) was used. Singtel ran the ADSL network while Singapore CableVision provided the cables services. Initially,
+                the pickup rate was slow but as time went on, Singapore became one of the countries with the highest broadband penetration rates with more than 90% of households having broadband connections. As time
+                went on, a new invention came around which was the fibre broadband which slowly put the cable and ADSL out of commission.
             </div>
+        </div>
+
+        <!-- Timeline Item 4 -->
+        <div class="timeline-item" style="background: white; border-left: 5px solid #ff4f5a; margin-bottom: 20px; padding: 15px; cursor: pointer;" onclick="toggleDetails(this)">
+            <div style="font-size: 18px; font-weight: bold;">2006 - Wireless@SG</div>
+            <div class="details" style="display: none; font-size: 16px; margin-top: 10px; color: #333;">
+                As the world became more and more digitalised and accessing internet on the go became more essential,the Singapore government launched Wireless@SG to deliver high-speed wireless connectivity.
+                Over the years after refining and fine tuning, this Wireless@SG programme allowed users to have enhanced faster surfing speeds and a more smooth login process using the Wireless@SG App or SIM
+                card credentials. 
+            </div>
+        </div>
+
+        <!-- Timeline Item 5 -->
+        <div class="timeline-item" style="background: white; border-left: 5px solid #ff4f5a; margin-bottom: 20px; padding: 15px; cursor: pointer;" onclick="toggleDetails(this)">
+            <div style="font-size: 18px; font-weight: bold;">2007 - The era of Smartphones</div>
+            <div class="details" style="display: none; font-size: 16px; margin-top: 10px; color: #333;">
+                When the iPhone launched in 2007 from Apple, it disrupted telecommunication as we know it. Seemingly overnight, people were carrying a mini computer with internet access in their pockets
+                which was unprecedented. As 3G service became available in 2005, it became an instant hit with usage of apps that let to widespread usage and new habits formed. Instant access to the internet
+                became a thing of possibility as you could instantly search anything you want at the click of a button.
+            </div>
+        </div>
+
+        <!-- Timeline Item 6 -->
+        <div class="timeline-item" style="background: white; border-left: 5px solid #ff4f5a; margin-bottom: 20px; padding: 15px; cursor: pointer;" onclick="toggleDetails(this)">
+            <div style="font-size: 18px; font-weight: bold;">2013 - The rise of Fibre Broadband</div>
+            <div class="details" style="display: none; font-size: 16px; margin-top: 10px; color: #333;">
+                In 2013 and after years of landing cables in households and streets, Singapore reached the milestone of nationwide coverage to all residential and non-residential premises. With this 
+                infrastructure being built, it enabled superior surfing speeds which allowed people to play games at a low latency and stream network intensive tv shows such as Netflix. This allowed
+                Singapore to regularly top the speediest Internet lists in the world.
+            </div>
+        </div>
+
+        <!-- Timeline Item 7 -->
+        <div class="timeline-item" style="background: white; border-left: 5px solid #ff4f5a; margin-bottom: 20px; padding: 15px; cursor: pointer;" onclick="toggleDetails(this)">
+            <div style="font-size: 18px; font-weight: bold;">2013 - 4G nationwide coverage</div>
+            <div class="details" style="display: none; font-size: 16px; margin-top: 10px; color: #333;">
+                With fibre broadband being installed, the era of 4G and fast internet connection took off, this led to 4G for all when the three telecommunication services in Singapore offering 4G services to their customers.
+                As 4G became more and more popular, so were high bandwidth-intensive activities like streaming videos or gaming becoming possible on the go. Now commutes did not need to be boring as you
+                could watch your favourite Instagram reels or TikTok.
+            </div>  
+        </div>
+
+        <!-- Timeline Item 8 -->
+        <div class="timeline-item" style="background: white; border-left: 5px solid #ff4f5a; margin-bottom: 20px; padding: 15px; cursor: pointer;" onclick="toggleDetails(this)">
+            <div style="font-size: 18px; font-weight: bold;">2025 - 5G and beyond</div>
+            <div class="details" style="display: none; font-size: 16px; margin-top: 10px; color: #333;">
+                In 2025, Singapore aims to have nationwide 5G coverage. 5G's speed and coverage would be essential to implement more advanced things such as the Internet of Things (IOT) and even higher
+                bandwidth for other initiatives. One such initiative which is known as the lamp post project aims to equip lamp posts with sensors to better monitor the weather. With such increase in 
+                internet technology, I believe Singapore will utilise such advanced technologies for things in the future.
+            </div>  
         </div>
     </div>
 
-    <footer style="background-color: #4CAF50; color: white; text-align: center; padding: 20px; margin-top: auto;">
-        <p style="font-size: 16px; margin: 0;">© 2025 History of Internet in Singapore</p>
+    <!-- Footer -->
+    <footer style="background-color: #4CAF50; color: white; text-align: center; padding: 15px; margin-top: auto;">
+        <p style="font-size: 14px; margin: 0;">© 2025 History of the Internet in Singapore</p>
     </footer>
 
     <script>
         function toggleDetails(element) {
             let details = element.querySelector(".details");
-            if (details.style.display === "none" || details.style.display === "") {
-                details.style.display = "block";
+            details.style.display = details.style.display === "none" || details.style.display === "" ? "block" : "none";
+        }
+
+        function toggleMenu() {
+            let navLinks = document.getElementById("nav-links");
+            navLinks.style.display = navLinks.style.display === "flex" ? "none" : "flex";
+        }
+
+        function adjustMenu() {
+            let menuBtn = document.getElementById("menu-btn");
+            let navLinks = document.getElementById("nav-links");
+
+            if (window.innerWidth <= 768) {
+                menuBtn.style.display = "block";
+                navLinks.style.display = "none";
+                navLinks.style.flexDirection = "column";
+                navLinks.style.position = "absolute";
+                navLinks.style.backgroundColor = "#ff4f5a";
+                navLinks.style.width = "100%";
+                navLinks.style.top = "60px";
+                navLinks.style.left = "0";
+                navLinks.style.padding = "10px 0";
+                navLinks.style.textAlign = "center";
             } else {
-                details.style.display = "none";
+                menuBtn.style.display = "none";
+                navLinks.style.display = "flex";
+                navLinks.style.flexDirection = "row";
+                navLinks.style.position = "static";
+                navLinks.style.backgroundColor = "transparent";
             }
         }
+
+        window.onload = adjustMenu;
+        window.onresize = adjustMenu;
     </script>
 
 </body>
