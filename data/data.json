@@ -1,0 +1,43 @@
+[
+    {
+      "year": "1987",
+      "title": "Connection to Bitnet",
+      "details": "Bitnet was used to connect to over 600 computers in academic institutions such as those in America and Europe. In 1987, Singapore's first university, the National University of Singapore, linked up to Bitnet. NUS played a pivotal role in bringing the country's first connection to the internet in 1990. In 1991, NUS began operating Technet, which connected academic institutions and other research facilities. However, during this period, most of the general public in Singapore did not have access to the internet, but things were slowly picking up in pace."
+    },
+    {
+      "year": "1994",
+      "title": "Internet for the masses",
+      "details": "When Singtel launched SingNet, the internet became available to the masses. They not only offered public access to the internet but also an email service. Two other internet service providers also entered into the picture, which helped increase competition and lower costs, benefiting consumers immensely."
+    },
+    {
+      "year": "1998",
+      "title": "Broadband Revolution",
+      "details": "The Singapore One national broadband network was launched and slowly rolled out to households after a year-long pilot programme. As compared to the older dial-up connection, the surfing speed was over 100 times faster when cable or ADSL (Asymmetric Digital Subscriber Line) was used. Singtel ran the ADSL network, while Singapore CableVision provided the cable services. Initially, the pickup rate was slow, but as time went on, Singapore became one of the countries with the highest broadband penetration rates, with more than 90% of households having broadband connections."
+    },
+    {
+      "year": "2006",
+      "title": "Wireless@SG",
+      "details": "As the world became more digitalized, accessing the internet on the go became essential. The Singapore government launched Wireless@SG to deliver high-speed wireless connectivity. Over the years, after refining and fine-tuning, this Wireless@SG programme allowed users to have enhanced, faster surfing speeds and a smoother login process using the Wireless@SG App or SIM card credentials."
+    },
+    {
+      "year": "2007",
+      "title": "The era of Smartphones",
+      "details": "When the iPhone launched in 2007 from Apple, it disrupted telecommunications as we know it. Seemingly overnight, people were carrying a mini computer with internet access in their pockets, which was unprecedented. As 3G service became available in 2005, it became an instant hit with usage of apps that led to widespread usage and new habits formed. Instant access to the internet became possible as you could search anything you want at the click of a button."
+    },
+    {
+      "year": "2013",
+      "title": "The rise of Fibre Broadband",
+      "details": "In 2013, after years of landing cables in households and streets, Singapore reached the milestone of nationwide coverage to all residential and non-residential premises. This infrastructure enabled superior surfing speeds, which allowed people to play games at a low latency and stream network-intensive TV shows such as Netflix. Singapore regularly topped the speediest internet lists in the world."
+    },
+    {
+      "year": "2013",
+      "title": "4G nationwide coverage",
+      "details": "With fibre broadband being installed, the era of 4G and fast internet connections took off. The three telecommunication services in Singapore offering 4G services to their customers led to widespread 4G adoption. As 4G became more popular, high-bandwidth intensive activities like streaming videos or gaming became possible on the go. Commutes no longer needed to be boring as you could watch your favorite Instagram reels or TikTok."
+    },
+    {
+      "year": "2025",
+      "title": "5G and beyond",
+      "details": "In 2025, Singapore aims to have nationwide 5G coverage. 5G's speed and coverage will be essential to implement more advanced technologies such as the Internet of Things (IoT) and provide even higher bandwidth for other initiatives. One such initiative, known as the lamp post project, aims to equip lamp posts with sensors to better monitor the weather. With these advancements in internet technology, Singapore will utilize such technologies for future developments."
+    }
+  ]
+  
