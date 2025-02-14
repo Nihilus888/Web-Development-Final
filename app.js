@@ -32,7 +32,7 @@ app.get('/history', (req, res) => {
             return response.json();
         })
         .then(timelineData => {
-            res.render('history', { timelineData });
+            res.render('history.ejs', { timelineData });
         })
         .catch(error => {
             console.error("Error: ". error);
@@ -41,12 +41,12 @@ app.get('/history', (req, res) => {
 
 // Route to images page
 app.get('/images', (req, res) => {
-    res.render('images');
+    res.render('images.ejs');
 })
 
 // Route to resources page
 app.get('/resources', (req, res) => {
-    res.render('resources');
+    res.render('resources.ejs');
 })
 
 // API call to local json data file server
