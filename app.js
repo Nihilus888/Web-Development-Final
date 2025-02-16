@@ -23,7 +23,6 @@ app.get('/home', (req, res) => {
 
 // Route to history page
 app.get('/history', (req, res) => {
-
     fetch('http://localhost:3000/api/data')
         .then(response => {
             if(!response.ok) {
