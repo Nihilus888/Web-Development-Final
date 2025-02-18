@@ -1,64 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>History of the Internet in Singapore</title>
-</head>
-<body style="margin: 0; height: 100%; font-family: Arial, sans-serif; background-color: #f4f4f4; display: flex; flex-direction: column; min-height: 100vh;">
-    <!-- Header -->
-    <header style="display: flex; justify-content: space-between; align-items: center; background-color: #ff4f5a; color: white; padding: 25px 50px; border-bottom: 4px solid #c92f33;">
-    
-        <!-- Container for Flag and Title -->
-        <div style="display: flex; align-items: center; gap: 15px;">
-            <img src="/Flag_of_Singapore.png" style="width: 50px; height: auto;" alt="Flag of Singapore">
-            <h1 style="font-size: 24px; font-weight: bold; margin: 0;">History of the Internet in Singapore</h1>
-        </div>
-    
-        <button onclick="toggleMenu()" id="menu-btn" style="background: none; border: none; color: white; font-size: 18px; cursor: pointer; display: none; margin-right: 10px">☰</button>
-    
-        <nav>
-            <ul id="nav-links" style="list-style-type: none; margin: 0; padding: 0; display: flex; gap: 20px;">
-                <li><a href="history" style="color: white; text-decoration: underline; font-size: 18px; font-weight: 500; padding: 8px;">History</a></li>
-                <li><a href="images" style="color: white; text-decoration: underline; font-size: 18px; font-weight: 500; padding: 8px;">Images</a></li>
-                <li><a href="resources" style="color: white; text-decoration: underline; font-size: 18px; font-weight: 500; padding: 8px;">Resources</a></li>
-            </ul>
-        </nav>
-    </header>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>History of the Internet in Singapore</title>
+    </head>
+    <body style="margin: 0; height: 100%; font-family: Arial, sans-serif; background-color: #FAF3E0; display: flex; flex-direction: column; min-height: 100vh;">
+        <!-- Header -->
+        <header style="display: flex; justify-content: space-between; align-items: center; background-color: #ff4f5a; color: white; padding: 20px; border-bottom: 4px solid #c92f33; flex-wrap: wrap; text-align: center;">
+            <div style="display: flex; align-items: center; gap: 15px; flex-grow: 1;">
+                <img src="/Flag_of_Singapore.png" style="width: 50px; height: auto;" alt="Flag of Singapore">
+                <h1 style="font-size: 24px; font-weight: bold; margin: 0;">History of the Internet in Singapore</h1>
+            </div>
+            <button onclick="toggleMenu()" id="menu-btn" style="background: none; border: none; color: white; font-size: 18px; cursor: pointer; display: none; margin-right: 10px">☰</button>
+            <nav style="flex-grow: 1; display: flex; justify-content: flex-end; gap: 20px;">
+                <ul id="nav-links" style="list-style-type: none; margin: 0; padding: 0; display: flex; gap: 20px;">
+                    <li><a href="home" style="color: white; text-decoration: underline; font-size: 18px; font-weight: 500; padding: 8px;">Home</a></li>
+                    <li><a href="history" style="color: white; text-decoration: underline; font-size: 18px; font-weight: 500; padding: 8px;">History</a></li>
+                    <li><a href="resources" style="color: white; text-decoration: underline; font-size: 18px; font-weight: 500; padding: 8px;">Resources</a></li>
+                </ul>
+            </nav>
+        </header>
 
-    <!-- Main Content -->
-    <main style="margin: 20px; padding: 20px; flex: 1; display: flex; gap: 20px; flex-wrap: wrap;">
+        <!-- Main Content -->
+        <main style="margin: 20px; padding: 20px; flex: 1; display: flex; gap: 20px; flex-wrap: wrap; justify-content: center;">
+            <!-- Image and Caption 1 -->
+            <div style="display: flex; flex-direction: column; align-items: center; gap: 10px; width: 400px; height: 600px;">
+                <img src="/Mobile_Services.jpg" style="width: 100%; height: auto; max-height: 100%; object-fit: contain;" alt="Time branch of Mobile Services">
+                <p style="font-size: 18px; text-align: center; margin: 0; border: solid black 2px; padding: 10px;">Time branch of Mobile Services in Singapore</p>
+            </div>
 
-        <!-- Container for Image and Caption 1 -->
-        <div style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
-            <img src="/Mobile_Services.jpg" style="width: 400px; height: 600px;" alt="Time branch of Mobile Services">
-            <p style="font-size: 18px; text-align: center; margin: 0; border: solid black 2px; padding: 10px;">Time branch of Mobile Services in Singapore</p>
-        </div>
+            <!-- Container for Images 2, 3, and 4 -->
+            <div style="display: flex; flex-direction: column; gap: 20px; width: 400px; height: 600px; justify-content: space-between; flex-shrink: 0;">
+                <!-- Container for Image and Caption 2 -->
+                <div style="display: flex; flex-direction: column; align-items: center; gap: 10px; height: 50%; width: 100%;">
+                    <img src="/NUS_Internet.jpg" style="width: 100%; height: auto; object-fit: contain;" alt="BitNet at NUS">
+                    <p style="font-size: 18px; text-align: center; margin: 0; border: solid black 2px; padding: 10px;">BitNet at NUS</p>
+                </div>
 
-        <!-- Container for Image and Caption 2 -->
-        <div style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
-            <img src="/NUS_Internet.jpg" style="width: 400px; height: auto; margin-right: 30px;" alt="BitNet at NUS">
-            <p style="font-size: 18px; text-align: center; margin: 0; border: solid black 2px; padding: 10px;">BitNet at NUS</p>
-        </div>
+                <!-- Container for Image and Caption 3 -->
+                <div style="display: flex; flex-direction: column; align-items: center; gap: 10px; height: 50%; width: 100%;">
+                    <img src="/Computer_Usage.jpg" style="width: 100%; height: auto; object-fit: contain;" alt="Early Internet User in Singapore">
+                    <p style="font-size: 18px; text-align: center; margin: 0; border: solid black 2px; padding: 10px;">Early users of the Internet in Singapore</p>
+                </div>
+            </div>
 
-        <!-- Container for Image and Caption 3 -->
-        <div style="display: flex; flex-direction: column; align-items: center; gap: 20px;">
-            <img src="/Computer_Usage.jpg" style="width: 350px; height: auto; margin-right: 30px;" alt="Early Internet User in Singapore">
-            <p style="font-size: 18px; text-align: center; margin: 0; border: solid black 2px; padding: 10px;">Early users of the Internet in Singapore</p>
-        </div>
+            <!-- Image and Caption 4 (Pushed to the Right) -->
+            <div style="display: flex; flex-direction: column; gap: 10px; width: 500px; margin-top: 20px; flex-shrink: 0;">
+                <img src="/NUS_Heritage.png" style="width: 100%; height: auto; object-fit: contain;" alt="IT Heritage in Singapore">
+                <p style="font-size: 16px; text-align: center; margin: 0; border: solid black 2px; padding: 10px;">IT Heritage in Singapore by NUS</p>
+            </div>
+        </main>
 
-        <!-- Container for Image and Caption 4 -->
-        <div style="display: flex; flex-direction: column; align-items: center; gap: 20px; margin-left: 600px; margin-top: -325px;">
-            <img src="/NUS_Heritage.png" style="width: 500px; height: 250px;" alt="IT Heritage in Singapore">
-            <p style="font-size: 18px; text-align: center; margin: 0; border: solid black 2px; padding: 10px;">IT Heritage in Singapore by NUS</p>
-        </div>
+        <!-- Footer -->
+        <footer style="background-color: #4CAF50; color: white; text-align: center; padding: 15px; margin-top: 30px;">
+            <p style="font-size: 14px; margin: 0;">© 2025 History of the Internet in Singapore</p>
+        </footer>
 
-    </main>
+        <script>
+            // Toggle menu visibility for small screens
+            function toggleMenu() {
+                const navLinks = document.getElementById('nav-links');
+                navLinks.style.display = navLinks.style.display === 'none' ? 'flex' : 'none';
+            }
 
-
-    <!-- Footer -->
-    <footer style="background-color: #4CAF50; color: white; text-align: center; padding: 15px; margin-top: auto;">
-        <p style="font-size: 14px; margin: 0;">© 2025 History of the Internet in Singapore</p>
-    </footer>
-</body>
+            // Media Query for smaller screens
+            if (window.innerWidth <= 768) {
+                const menuBtn = document.getElementById('menu-btn');
+                const navLinks = document.getElementById('nav-links');
+                navLinks.style.display = 'none';
+                menuBtn.style.display = 'block';
+            }
+        </script>
+    </body>
 </html>
