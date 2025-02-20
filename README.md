@@ -37,19 +37,26 @@ One of the main rubrics was to test your web application for accessibility and W
 This web development project allowed me to put my coding to the test as I had to choose a tech stack that would fit the requirements but also something that was more technically compatible with my current knowledge. This gave me autonomy but also let me understand how to make proper trade offs based on my familiarity with the technology and its functionality, managing my time to meet the deadline and also to work with constraints such as having no external APIs to pull JSON data that I can work with and how I dealt with it. Overall, this was an interesting and immersive experience that allowed me to explore the world of web development and to also deepen my knowledge further in this subject.
 
 References
-Chaya, T. (2023, February 25). How to create a local API server (REST API) for testing. Medium.
-https://medium.com/chaya-thilakumara/how-to-create-a-local-api-server-rest-api-for-testing-945bbb2d31b7
-Express.js. (n.d.). Installing Express. 
-https://expressjs.com/en/starter/installing.html
-Express.js. (n.d.). Routing. 
-https://expressjs.com/en/guide/routing.html
-FreeCodeCamp. (2021, May 20). Make API calls in JavaScript. 
-https://www.freecodecamp.org/news/make-api-calls-in-javascript/
-Mozilla Developer Network. (n.d.). CSS: Cascading Style Sheets. Mozilla.
-https://developer.mozilla.org/en-US/docs/Web/CSS
-National University of Singapore IT. (2020, October). Origins of Internet in Singapore.
-https://nusit.nus.edu.sg/wp-content/uploads/2020/10/Prof-Article-2-Origins-of-Internet-in-Singapore-colour-reduced.pdf
-The Straits Times. (2015, October). 35 years of ICT: Supercharging Singapore - The 1990s.
-https://graphics.straitstimes.com/STI/STIMEDIA/Interactives/2015/10/35-years-of-ict/supercharging-singapore/the-1990s.html
-Tech.gov.sg. (n.d.). History of the Internet.
-https://www.tech.gov.sg/media/technews/history-of-the-internet
+1. Chaya, T. (2023, February 25). How to create a local API server (REST API) for testing. Medium.
+- https://medium.com/chaya-thilakumara/how-to-create-a-local-api-server-rest-api-for-testing-945bbb2d31b7
+
+2. Express.js. (n.d.). Installing Express. 
+- https://expressjs.com/en/starter/installing.html 
+
+3. Express.js. (n.d.). Routing. 
+- https://expressjs.com/en/guide/routing.html
+
+4. FreeCodeCamp. (2021, May 20). Make API calls in JavaScript. 
+- https://www.freecodecamp.org/news/make-api-calls-in-javascript/
+
+5. Mozilla Developer Network. (n.d.). CSS: Cascading Style Sheets. Mozilla.
+- https://developer.mozilla.org/en-US/docs/Web/CSS
+
+6. National University of Singapore IT. (2020, October). Origins of Internet in Singapore.
+- https://nusit.nus.edu.sg/wp-content/uploads/2020/10/Prof-Article-2-Origins-of-Internet-in-Singapore-colour-reduced.pdf
+
+7. The Straits Times. (2015, October). 35 years of ICT: Supercharging Singapore - The 1990s.
+- https://graphics.straitstimes.com/STI/STIMEDIA/Interactives/2015/10/35-years-of-ict/supercharging-singapore/the-1990s.html
+
+8. Tech.gov.sg. (n.d.). History of the Internet.
+- https://www.tech.gov.sg/media/technews/history-of-the-internet
