@@ -64,7 +64,7 @@ Link: https://github.com/Nihilus888/Web-Development-Final
 7. Mozilla Developer Network. (n.d.). CSS: Cascading Style Sheets. Mozilla.
 - https://developer.mozilla.org/en-US/docs/Web/CSS
 
-8.Web Validator. (n.d.). W3C validator.
+8. Web Validator. (n.d.). W3C validator.
 - https://validator.w3.org/
 
 9. aChecker. (n.d.). aChecker web accessibility checker.
