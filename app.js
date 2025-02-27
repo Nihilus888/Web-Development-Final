@@ -52,13 +52,13 @@ app.get('/resources', (req, res) => {
 app.get('/api/data', (req, res) => {
     const filePath = "./data/data.json";
 
-    // read the json data file
+    // Read the json data file
     fs.readFile(filePath, 'utf-8', (err, data) => {
         if (err) {
             return res.status(500).json("Issue with pulling the local json data file");
         }
 
-    // try catch exception to parse the json data
+    // Try catch exception to parse the json data
         try {
             const jsonData = JSON.parse(data);
             res.json(jsonData);

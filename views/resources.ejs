@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>History of the Internet in Singapore</title>
     </head>
+    
     <body style="margin: 0; height: 100%; font-family: Arial, sans-serif; background-color: #FAF3E0; display: flex; flex-direction: column; min-height: 100vh;">
         <!-- Header -->
         <header style="display: flex; justify-content: space-between; align-items: center; background-color: #ff4f5a; color: white; padding: 25px 50px; border-bottom: 4px solid #c92f33;">
@@ -95,6 +96,35 @@
         <footer style="background-color: #388E3C; color: white; text-align: center; padding: 15px;">
             <p style="font-size: 14px; margin: 0; color: black;">© 2025 History of the Internet in Singapore</p>
         </footer>    
+
+        <script>
+            // Function to toggle menu
+            function toggleMenu() {
+                    let navLinks = document.getElementById('nav-links');
+                    if (navLinks.style.display === 'none' || navLinks.style.display === '') {
+                        navLinks.style.display = 'block';
+                    } else {
+                        navLinks.style.display = 'none';
+                    }
+            }
+
+            // Function to adjust nav bar
+            function adjustNav() {
+                    let navLinks = document.getElementById('nav-links');
+                    let menuBtn = document.getElementById('menu-btn');
+                    if (window.innerWidth <= 768) {
+                        navLinks.style.display = 'none';
+                        menuBtn.style.display = 'block';
+                    } else {
+                        navLinks.style.display = 'flex';
+                        menuBtn.style.display = 'none';
+                    }
+                }
+                
+            window.onload = adjustNav;
+            window.onresize = adjustNav;
+        
+        </script>
 
     </body>
 </html>

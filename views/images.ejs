@@ -5,14 +5,19 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>History of the Internet in Singapore</title>
     </head>
-    <body style="margin: 0; height: 100%; font-family: Arial, sans-serif; background-color: #FAF3E0; display: flex; flex-direction: column; min-height: 100vh;">
-        <!-- Header -->
-        <header style="display: flex; justify-content: space-between; align-items: center; background-color: #ff4f5a; color: white; padding: 20px; border-bottom: 4px solid #c92f33; flex-wrap: wrap; text-align: center;">
-            <div style="display: flex; align-items: center; gap: 15px; flex-grow: 1;">
-                <img src="/Flag_of_Singapore.png" style="width: 50px; height: auto;" alt="Flag of Singapore">
-                <h1 style="font-size: 24px; font-weight: bold; margin: 0;">History of the Internet in Singapore</h1>
-            </div>
-            <button onclick="toggleMenu()" id="menu-btn" style="background: none; border: none; color: white; font-size: 18px; cursor: pointer; display: none; margin-right: 10px">☰</button>
+
+    <body style="margin: 0; font-family: Arial, sans-serif; background-color: #FAF3E0; display: flex; flex-direction: column; min-height: 100vh;">
+
+    <!-- Header -->
+    <header style="display: flex; justify-content: space-between; align-items: center; background-color: #ff4f5a; color: white; padding: 25px 50px; border-bottom: 4px solid #c92f33;">
+        
+        <!-- Container for Flag and Title -->
+        <div style="display: flex; align-items: center; gap: 15px;">
+            <img src="/Flag_of_Singapore.png" style="width: 50px; height: auto;" alt="Flag of Singapore">
+            <h1 style="font-size: 24px; font-weight: bold; margin: 0;">History of the Internet in Singapore</h1>
+        </div>
+    
+        <button onclick="toggleMenu()" id="menu-btn" style="background: none; border: none; color: white; font-size: 18px; cursor: pointer; display: none; margin-right: 10px">☰</button>
             <nav style="flex-grow: 1; display: flex; justify-content: flex-end; gap: 20px;">
                 <ul id="nav-links" style="list-style-type: none; margin: 0; padding: 0; display: flex; gap: 20px;">
                     <li><a href="home" style="color: white; text-decoration: underline; font-size: 18px; font-weight: 500; padding: 8px;">Home</a></li>
@@ -58,19 +63,32 @@
         </footer>    
 
         <script>
-            // Toggle menu visibility for small screens
+            // Function to toggle menu
             function toggleMenu() {
-                const navLinks = document.getElementById('nav-links');
-                navLinks.style.display = navLinks.style.display === 'none' ? 'flex' : 'none';
+                    let navLinks = document.getElementById('nav-links');
+                    if (navLinks.style.display === 'none' || navLinks.style.display === '') {
+                        navLinks.style.display = 'block';
+                    } else {
+                        navLinks.style.display = 'none';
+                    }
             }
 
-            // Media Query for smaller screens
-            if (window.innerWidth <= 768) {
-                const menuBtn = document.getElementById('menu-btn');
-                const navLinks = document.getElementById('nav-links');
-                navLinks.style.display = 'none';
-                menuBtn.style.display = 'block';
-            }
+            // Function to adjust nav bar
+            function adjustNav() {
+                    let navLinks = document.getElementById('nav-links');
+                    let menuBtn = document.getElementById('menu-btn');
+                    if (window.innerWidth <= 768) {
+                        navLinks.style.display = 'none';
+                        menuBtn.style.display = 'block';
+                    } else {
+                        navLinks.style.display = 'flex';
+                        menuBtn.style.display = 'none';
+                    }
+                }
+                
+            window.onload = adjustNav;
+            window.onresize = adjustNav;
+        
         </script>
     </body>
 </html>

@@ -58,11 +58,31 @@
             details.style.display = details.style.display === "none" || details.style.display === "" ? "block" : "none";
         }
 
-        // Function to toggle mobile menu visibility
+        // Function to toggle menu
         function toggleMenu() {
-            let navLinks = document.getElementById("nav-links");
-            navLinks.style.display = navLinks.style.display === "flex" ? "none" : "flex";
+                let navLinks = document.getElementById('nav-links');
+                if (navLinks.style.display === 'none' || navLinks.style.display === '') {
+                    navLinks.style.display = 'block';
+                } else {
+                    navLinks.style.display = 'none';
+                }
         }
+
+        // Function to adjust nav bar
+        function adjustNav() {
+                let navLinks = document.getElementById('nav-links');
+                let menuBtn = document.getElementById('menu-btn');
+                if (window.innerWidth <= 768) {
+                    navLinks.style.display = 'none';
+                    menuBtn.style.display = 'block';
+                } else {
+                    navLinks.style.display = 'flex';
+                    menuBtn.style.display = 'none';
+                }
+            }
+            
+        window.onload = adjustNav;
+        window.onresize = adjustNav;
     </script>
 
 </body>
